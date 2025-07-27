@@ -28,8 +28,8 @@ This Node.js application connects to your Gmail account using IMAP, reads emails
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/gmail-amount-extraction.git
-cd gmail-amount-extraction
+git clone https://github.com/tuhin18003/email-transaction-reporter.git
+cd email-transaction-reporter
 ```
 
 ### 2. Install dependencies
