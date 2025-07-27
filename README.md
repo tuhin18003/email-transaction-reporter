@@ -57,14 +57,15 @@ const imapConfig = {
 
 ## 🔐 Generate a Gmail App Password
 
-1. Go to: [https://myaccount.google.com/security](https://myaccount.google.com/security)
-2. Enable **2-Step Verification**
-3. After enabling, scroll down to **App Passwords**
-4. Choose:
-   - **App:** Mail
-   - **Device:** Other > name it e.g., `Node App`
-5. Generate and **copy the 16-character password**
-6. Use it in place of your Gmail password in `server.js`
+### Step 1: Enable 2-Step Verification
+1. Go to: https://myaccount.google.com/security
+2. Under "Signing in to Google", click 2-Step Verification and complete the setup.
+
+### Step 2: Generate App Password (Option will appear after Step 1)
+1. After enabling 2FA, go to: https://myaccount.google.com/apppasswords
+2. Select "Mail" as the app and "Other" or "PHPMailer" as the device.
+3. It will give you a 16-digit password.
+4. Use it in place of your Gmail password in `server.js`
 
 ---
 
