@@ -63,7 +63,7 @@ const imapConfig = {
 
 ### Step 2: Generate App Password (Option will appear after Step 1)
 1. After enabling 2FA, go to: https://myaccount.google.com/apppasswords
-2. Select "Mail" as the app and "Other" or "PHPMailer" as the device.
+2. Enter your app name. Example: Email reader
 3. It will give you a 16-digit password.
 4. Use it in place of your Gmail password in `server.js`
 
